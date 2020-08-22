@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<main>
+    <section class="cat-food ">
+        <div class="cat-food__wrapper">
+            <h1 class="cat-food__title">Ты сегодня покормил кота?</h1>
+            <ul class="cat-food__cards food-cards">
+                <li class="food-card">
+                    <div class="food-card__card-wrapper">
+                        <div class="food-card__card food-card__card--default" >
+                            <span class="food-card__beveled-corner"></span>
+                            <div class="food-card__text-wrapper">
+                                <p class="food-card__top-description">Сказочное заморское яство</p>
+                                <h2 class="food-card__name">Нямушка</h2>
+                                <b class="food-card__taste">с фуа-гра</b>
+                                <p class="food-card__bottom-description">
+                                    <span class="food-card__servings-number">10 порций</span>
+                                    <span class="food-card__present">мышь в подарок</span>
+                                </p>
+                            </div>
+                            <!-- <img src="img/cat.png" alt="Изображение кота, довольного нашим лакомством" class="food-card__cat-img"> -->
+                            <div class="food-card__weight-sticker">
+                                <span class="food-card__weight-number">0,5</span>
+                                <span class="food-card__kg">кг</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="food-card__is-available-text food-card__is-available-text--default">Чего сидишь? Порадуй котэ, <a class="food-card__buy" href="#buy">купи.</a></p>
+                    <p class="food-card__is-available-text food-card__is-available-text--selected hidden">Печень утки разварная с артишоками.</p>
+                    <!-- <p class="food-card__is-available-text food-card__is-available-text--disabled ">Печалька, с фуа-гра закончился.</p> -->
+                </li>
+                <li class="food-card">
+                    <div class="food-card__card-wrapper">
+                        <div class="food-card__card food-card__card--selected">
+                            <span class="food-card__beveled-corner"></span>
+                            <div class="food-card__text-wrapper">
+                                <p class="food-card__top-description">Сказочное заморское яство</p>
+                                <h2 class="food-card__name">Нямушка</h2>
+                                <b class="food-card__taste">с рыбой</b>
+                                <p class="food-card__bottom-description">
+                                    <span class="food-card__servings-number">40 порций</span>
+                                    <span class="food-card__present">2 мыши в подарок</span>
+                                </p>
+                            </div>
+                            <!-- <img src="img/cat.png" alt="Изображение кота, довольного нашим лакомством" class="food-card__cat-img"> -->
+                            <div class="food-card__weight-sticker">
+                                <span class="food-card__weight-number">2</span>
+                                <span class="food-card__kg">кг</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="food-card__is-available-text food-card__is-available-text--default hidden">Чего сидишь? Порадуй котэ, <a class="food-card__buy" href="#buy">купи.</a></p>
+                    <p class="food-card__is-available-text food-card__is-available-text--selected ">Головы щучьи с чесноком да свежайшая сёмгушка.</p>
+                    <!-- <p class="food-card__is-available-text food-card__is-available-text--disabled ">Печалька, с рыбой закончился.</p> -->
+                </li>
+
+                <li class="food-card">
+                    <div class="food-card__card-wrapper food-card__card-wrapper--disabled">
+                        <div class="food-card__card food-card__card--disabled">
+                            <span class="food-card__beveled-corner"></span>
+                            <div class="food-card__text-wrapper">
+                                <p class="food-card__top-description">Сказочное заморское яство</p>
+                                <h2 class="food-card__name">Нямушка</h2>
+                                <b class="food-card__taste">с курой</b>
+                                <p class="food-card__bottom-description">
+                                    <span class="food-card__servings-number">100 порций</span> 
+                                    <span class="food-card__present">5 мышей в подарок</span>
+                                    <span class="food-card__customer">заказчик доволен</span>
+                                </p>
+                            </div>
+                            <!-- <img src="img/cat.png" alt="Изображение кота, довольного нашим лакомством" class="food-card__cat-img"> -->
+                            <div class="food-card__weight-sticker">
+                                <span class="food-card__weight-number">5</span>
+                                <span class="food-card__kg">кг</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="food-card__is-available-text food-card__is-available-text--default hidden">Чего сидишь? Порадуй котэ, <a class="food-card__buy" href="#buy">купи.</a></p>
+                    <p class="food-card__is-available-text food-card__is-available-text--selected hidden">Филе из цыплят с трюфелями в бульоне.</p>
+                    <p class="food-card__is-available-text food-card__is-available-text--disabled ">Печалька, с курой закончился.</p>
+                </li>
+            </ul>
+        </div>
+    </section>  
+</main>
+<script src="js/cat-food.js"></script>
+</body>
+</html>
